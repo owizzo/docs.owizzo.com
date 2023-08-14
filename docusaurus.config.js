@@ -54,7 +54,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/owizzo-logo-m.png',
       navbar: {
         logo: {
           alt: 'owizzo',
@@ -66,6 +66,12 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'testSidebar',
+            position: 'left',
+            label: 'Test',
           },
           {
             href: 'https://github.com/owizzo',
